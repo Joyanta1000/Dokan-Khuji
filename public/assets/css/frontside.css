@@ -1,0 +1,123 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    height: 100%;
+}
+
+.main-content {
+    background-image: url("../../background/background.jpg");
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+
+    padding-bottom: 50px;
+}
+
+.content-sec {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.search-input{
+    font-size: 18px;
+}
+
+.search-input:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+    border: none;
+}
+
+.search-btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.logo {
+    width: 200px;
+}
+
+.footer {
+    height: auto;
+    background-color: #2b0a0acc;
+}
+
+.footer-sec {
+    display: flex;
+    padding: 20px 50px 20px 50px;
+    width: 100%;
+    height: 85%;
+}
+
+.footer-end {
+    width: 100%;
+    border-block-start: rgb(187, 158, 158) 2px solid;
+    height: 15%;
+    padding: 5px 0px 0px 15px;
+    color: white;
+}
+
+.discover {
+    width: 35%;
+    height: 100%;
+}
+
+.discover-sub {
+    width: 35%;
+    height: 100%;
+}
+
+.contact {
+    width: 30%;
+    height: 100%;
+}
+
+.discover ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.discover-sub ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.social-link {
+    display: flex;
+}
+
+@media (max-width: 575.98px) {
+    .footer-sec {
+        display: block;
+        padding: 30px 25px 30px 25px;
+    }
+
+    .discover {
+        width: 100%;
+    }
+
+    .discover-sub {
+        width: 100%;
+    }
+
+    .contact {
+        padding-top: 20px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
